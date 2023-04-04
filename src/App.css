@@ -52,7 +52,7 @@ nav > button {
   padding: 64px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1em
+  grid-gap: 4em
 }
 
 .intro-box p {
