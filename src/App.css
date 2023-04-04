@@ -1,14 +1,52 @@
 .App {
-  padding: 2vh 10vw;
+  padding: 0 10vw;
   --shadow-size: 3px;
   --shadow-size-neg: calc(var(--shadow-size) * -1);
 }
 
-.raisable:hover {
+header {
+  margin: 2em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.invertable:hover {
   text-shadow: var(--shadow-size-neg) var(--shadow-size-neg) rgb(125, 177, 255), var(--shadow-size) var(--shadow-size) rgb(255, 157, 0);
 }
 
 h1 {
+  margin: 0px;
+  cursor: default;
   font-size: 64px;
   text-shadow: var(--shadow-size-neg) var(--shadow-size-neg) rgb(255, 157, 0), var(--shadow-size) var(--shadow-size) rgb(125, 177, 255);
+}
+
+nav {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+nav > * {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+nav > button {
+  padding: 8px;
+  background-color: black;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-text {
+  font-weight: bold;
+  color: black;
+  font-size: 32px;
+}
+
+.muted {
+  color: #555;
 }

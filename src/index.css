@@ -12,12 +12,6 @@ code {
     monospace;
 }
 
-.hero-text {
-  font-weight: bold;
-  color: black;
-  font-size: 32px;
-}
-
-.muted {
-  color: #555;
+h1 {
+  display: inline;
 }
