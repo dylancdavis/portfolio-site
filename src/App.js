@@ -51,11 +51,15 @@ function App() {
           </div>
           <div className="intro-images">Just a placeholder for now</div>
         </div>
-
         <hr></hr>
-        <section>
-          <h2>projects</h2>
-        </section>
+        <div class="showcase-box">
+          <div>
+            <h2>My Projects</h2>
+          </div>
+          <div>
+            <h2>About Me</h2>
+          </div>
+        </div>
       </main>
     </div>
   );
