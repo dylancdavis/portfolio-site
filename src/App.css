@@ -48,6 +48,10 @@ nav > button {
   font-weight: bold;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 .intro-box {
   padding: 64px 0px;
   display: grid;
