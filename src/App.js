@@ -49,7 +49,9 @@ function App() {
               I've gotten to know Vue more recently as well.
             </p>
           </div>
+          <div className="intro-images">Just a placeholder for now</div>
         </div>
+
         <hr></hr>
         <section>
           <h2>projects</h2>
