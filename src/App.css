@@ -1,5 +1,5 @@
 .App {
-  padding: 5vh 20vw;
+  padding: 2vh 10vw;
   --shadow-size: 3px;
   --shadow-size-neg: calc(var(--shadow-size) * -1);
 }
