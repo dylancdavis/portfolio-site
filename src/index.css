@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero-text {
+  font-weight: bold;
+  color: black;
+  font-size: 32px;
+}
+
+.muted {
+  color: #555;
+}

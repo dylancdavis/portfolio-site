@@ -1,0 +1,14 @@
+.App {
+  padding: 5vh 20vw;
+  --shadow-size: 3px;
+  --shadow-size-neg: calc(var(--shadow-size) * -1);
+}
+
+.raisable:hover {
+  text-shadow: var(--shadow-size-neg) var(--shadow-size-neg) rgb(125, 177, 255), var(--shadow-size) var(--shadow-size) rgb(255, 157, 0);
+}
+
+h1 {
+  font-size: 64px;
+  text-shadow: var(--shadow-size-neg) var(--shadow-size-neg) rgb(255, 157, 0), var(--shadow-size) var(--shadow-size) rgb(125, 177, 255);
+}
