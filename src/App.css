@@ -41,10 +41,14 @@ nav > button {
   font-weight: bold;
 }
 
+.intro-box {
+  padding: 64px 0px;
+}
+
 .hero-text {
   font-weight: bold;
   color: black;
-  font-size: 32px;
+  font-size: 48px;
 }
 
 .muted {
