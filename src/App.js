@@ -45,7 +45,7 @@ function App() {
             </p>
             <p>
               This year, I enrolled with the University of Helsinki to learn
-              more about full-stack web development. I've build a few projects
+              more about full-stack web development. I've built a few projects
               with React, and I've primarily worked with the MERN stack, though
               I've gotten to know Vue more recently as well.
             </p>
