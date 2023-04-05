@@ -48,11 +48,15 @@ nav > button {
   font-weight: bold;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 .intro-box {
   padding: 64px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1em
+  grid-gap: 4em
 }
 
 .intro-box p {
