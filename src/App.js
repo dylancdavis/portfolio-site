@@ -24,7 +24,9 @@ function App() {
           <NavLink to="/">home</NavLink>
           <NavLink to="/projects">projects</NavLink>
           <NavLink to="/about">about</NavLink>
-          <NavLink to="/contact">contact</NavLink>
+          <NavLink to="/contact" className="contact">
+            contact
+          </NavLink>
         </nav>
       </header>
       <hr></hr>

@@ -41,12 +41,24 @@ nav > * {
   font-size: 24px;
 }
 
-nav > button {
+nav > a.contact {
   padding: 8px;
   background-color: black;
-  border: 0px;
   color: white;
   font-weight: bold;
+}
+
+nav > a {
+  padding: 8px;
+  border: 2px solid transparent
+}
+
+nav > a.active {
+  border: 2px solid black;
+}
+
+nav > a:hover {
+  border: 2px dotted grey;
 }
 
 h2 {
