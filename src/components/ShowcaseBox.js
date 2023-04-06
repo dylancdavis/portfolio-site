@@ -1,6 +1,6 @@
 const ShowcaseBox = () => {
   return (
-    <div class="showcase-box">
+    <div className="showcase-box">
       <div>
         <h2>My Projects</h2>
       </div>
