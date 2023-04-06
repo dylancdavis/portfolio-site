@@ -1,8 +1,8 @@
-const ProjectItem = ({ name, image, website, github, description }) => {
+const ProjectItem = ({ name, image, alt, website, github, description }) => {
   return (
     <div class="project-item">
       <h3>{name}</h3>
-      <div class="project-image">{image}</div>
+      <img class="project-image" alt={alt} src={image}></img>
       {website && <a href={website}>Link</a>}
       <a href={github}>Github</a>
       {description && <p>{description}</p>}
