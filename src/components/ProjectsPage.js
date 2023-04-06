@@ -4,7 +4,7 @@ const ProjectsPage = () => {
   return (
     <>
       <section>
-        <h3>Web Development</h3>
+        <h2>Web Development</h2>
         <div class="project-container">
           <ProjectItem
             name="Blogsharing Application"

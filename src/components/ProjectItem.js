@@ -4,7 +4,7 @@ const ProjectItem = ({ name, image, website, github, description }) => {
       class="project-item"
       style={{ border: "1px solid black", padding: "8px" }}
     >
-      <h4>{name}</h4>
+      <h3>{name}</h3>
       <div class="project-image">{image}</div>
       {website && <a href={website}>Link</a>}
       <a href={github}>Github</a>
