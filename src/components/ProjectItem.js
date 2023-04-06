@@ -1,9 +1,6 @@
 const ProjectItem = ({ name, image, website, github, description }) => {
   return (
-    <div
-      class="project-item"
-      style={{ border: "1px solid black", padding: "8px" }}
-    >
+    <div class="project-item">
       <h3>{name}</h3>
       <div class="project-image">{image}</div>
       {website && <a href={website}>Link</a>}
