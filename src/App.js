@@ -1,7 +1,8 @@
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 import IntroBox from "./components/IntroBox";
 import ShowcaseBox from "./components/ShowcaseBox";
+import ProjectsPage from "./components/ProjectsPage";
 
 function App() {
   return (
@@ -20,17 +21,25 @@ function App() {
           </h1>
         </div>
         <nav>
-          <div>home</div>
-          <div>projects</div>
-          <div>about</div>
-          <button>contact</button>
+          <NavLink to="/">home</NavLink>
+          <NavLink to="/projects">projects</NavLink>
+          <NavLink to="/about">about</NavLink>
+          <NavLink to="/contact">contact</NavLink>
         </nav>
       </header>
       <hr></hr>
       <main>
-        <IntroBox />
-        <hr></hr>
-        <ShowcaseBox />
+        <Routes>
+          <Route
+            path="/*"
+            element={
+              <>
+                <IntroBox /> <hr></hr> <ShowcaseBox />
+              </>
+            }
+          />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
       </main>
     </div>
   );
